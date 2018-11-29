@@ -1,1 +1,1 @@
-# ArcaniumAcademy
+# The Arcanium Academy
