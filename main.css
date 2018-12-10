@@ -6,7 +6,8 @@ header{
 	border-radius:30px;
 }
 h1{
-	text-align: center;font-size:50px;
+	text-align: center;
+	font-size:50px;
 	margin-bottom:0px;
 }
 h2{
@@ -21,7 +22,8 @@ h3{
 	margin-top:0px;
 }
 .main-navigation{
-	text-align: right;color:#595b5e;
+	text-align: right;
+	color:#595b5e;
 	font-size:35px;
 	color:white;
 	margin-top:10px;
