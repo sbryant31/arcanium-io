@@ -3,7 +3,7 @@ header{
 	border-top: black;
 	border-left: black;
 	border-right: black;
-	border-radius:30px;
+	border-radius:5px;
 }
 h1{
 	text-align: center;
@@ -13,7 +13,7 @@ h1{
 h2{
 	display:inline;
     border-style:solid;
-    border-radius:55px;
+    border-radius:5px;
     border-color: #1f2021;
 }
 h3{
