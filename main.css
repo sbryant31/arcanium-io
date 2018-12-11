@@ -88,6 +88,7 @@ form .about{
 	margin-top:10px;
 	padding: 5px 5px 5px 5px;
 	font-family: sans-serif;
+	margin-bottom: 15px;
 }
 a{
   color:#868686;
@@ -105,6 +106,10 @@ body{
 	color:#868686;
 	font-family:sans-serif;
 	font-weight:500;
+	max-width: 1080px;
+	margin: 0 auto !important;
+	float: none !important;
+}
 }
 footer p{
     position: fixed;
@@ -114,13 +119,13 @@ footer p{
 }
 .container{
 	width: 300px;
-	padding: 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
+  	padding: 40px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
 	transform: translate(-50%,-50%);
 	background: #191919;
-	text-align: center;
+  	text-align: center;
 }
 span.arcanium{
 	color:#4583E8;
