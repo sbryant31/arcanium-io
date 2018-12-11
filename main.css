@@ -4,15 +4,11 @@ header{
 	border-left:black;
 	border-right:black;
 	border-radius:5px;
-<<<<<<< HEAD
 	border-width:2px;
 }
 form{
 	display: flex;
 	flex-direction: column;
-=======
-	border-width: 2px;
->>>>>>> fb9068fa3fb08938721664b9e871ab7bafba4e6a
 }
 h1{
 	text-align: center;
@@ -23,13 +19,8 @@ h2{
 	display:inline;
     border-style:solid;
     border-radius:5px;
-<<<<<<< HEAD
     border-color:#1f2021;
     border-width:2px;
-=======
-    border-color: #1f2021;
-    border-width: 2px;
->>>>>>> fb9068fa3fb08938721664b9e871ab7bafba4e6a
 }
 h3{
 	text-align:center;
@@ -39,41 +30,38 @@ h3{
 h4{
     text-decoration:underline;
 }
-h4{
-	text-decoration: underline;
-}
 .main-navigation{
 	text-align:center;
 	color:#595b5e;
 	font-size:35px;
-	color:white;
+	color:#868686;
 	margin-top:10px;
-	padding:5px;
+	padding: 5px 5px 5px 5px;
 }
 a{
-  color:white;
+  color:#868686;
   text-decoration:none;
   border-style:solid;
   border-radius:5px;
-<<<<<<< HEAD
   border-width:2px;
-=======
-  border-width: 2px;
->>>>>>> fb9068fa3fb08938721664b9e871ab7bafba4e6a
 }
 a:hover{
 	background-color:#3a3b3d;
 }
 body{
 	background-color:#2e2f30;
-	color:white;
+	color:#868686;
 	font-family:sans-serif;
 	font-weight:500;
 }
 footer{
-<<<<<<< HEAD
 	margin-top:5px;
 	text-align:center;
+}
+.container{
+	width: 100%;
+	height: 500px;
+	background-color: #ccc;
 }
 span.arcanium{
 	color:#4583E8;
@@ -149,15 +137,3 @@ h3.adept{
 h3.journeyman{
 	color:#FFBC6C;
 }
-
-=======
-	margin-top: 5px;
-	text-align:center;
-}
-.container{
-	display: block;
-	width: 600px;
-	height: 700px;
-	background-color: #222223;
-}
->>>>>>> fb9068fa3fb08938721664b9e871ab7bafba4e6a
