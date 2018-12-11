@@ -21,11 +21,13 @@ h2{
     border-radius:5px;
     border-color:#1f2021;
     border-width:2px;
+    padding: 2px;
 }
 h3{
 	text-align:center;
 	font-size:25px;
     margin-top:0px;
+    padding: 2px;
 }
 h4{
     text-decoration:underline;
@@ -85,7 +87,7 @@ form .about{
 	color:#868686;
 	margin-top:10px;
 	padding: 5px 5px 5px 5px;
-	 font-family: sans-serif;
+	font-family: sans-serif;
 }
 a{
   color:#868686;
@@ -93,6 +95,7 @@ a{
   border-style:solid;
   border-radius:5px;
   border-width:2px;
+  padding: 5px;
 }
 a:hover{
 	background-color:#3a3b3d;
@@ -147,12 +150,13 @@ h2.application{
 .container{
 	display: flex;
 	background-color: #222223;
+	padding: 2px;
 }
 a.indexcolor{
 	border-color: #4583E8;
 }
 a.academycolor{
-	border-color: #794DE8;;
+	border-color: #794DE8;
 }
 a.rostercolor{
 	border-color: #E85B63;
@@ -173,7 +177,7 @@ h2.rosterborder{
 	border-color: #E85B63;
 }
 h2.theacademy{
-	border-color:#1CE872;
+	border-color:#794DE8;
 }
 h2.softdev{
 	border-color: #4583E8;
@@ -193,4 +197,14 @@ h3.adept{
 h3.journeyman{
 	color:#FFBC6C;
 }
+h4.green-color{
+	color:#3BE84F;
+}
+h4.orange-color{
+	color:#E86039;
+}
+h4.red-color{
+	color:#E8474E;
+}
+
 
