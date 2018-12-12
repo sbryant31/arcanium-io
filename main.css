@@ -16,7 +16,7 @@ h1{
 	margin-bottom:-10px;
 }
 h2{
-	display:inline;
+	text-align: center;
     border-style:solid;
     border-radius:5px;
     border-color:#1f2021;
@@ -110,13 +110,6 @@ body{
 	margin: 0 auto !important;
 	float: none !important;
 }
-}
-footer p{
-    position: fixed;
-    bottom: 0px;
-    right: 40%;
-    text-align: center;
-}
 .container{
 	width: 300px;
   	padding: 40px;
@@ -176,19 +169,22 @@ a.join{
 	border-color: #4583E8;
 }
 h2.hireborder{
-	border-color:#158EE8;
+	border-color:#1CE872;
 }
 h2.rosterborder{
-	border-color: #E85B63;
+	border-color: #e85b63a8;
 }
 h2.theacademy{
 	border-color:#794DE8;
 }
 h2.softdev{
-	border-color: #4583E8;
+	border-color: #4583e8ab;
 }
 h2.mother{
-	border-color:#794DE8;
+	border-color:#794de8c4;
+}
+h2.arcanium4{
+	border-color:#EA8239;
 }
 h3.initiate{
 	color:#3BE84F;
@@ -210,4 +206,16 @@ h4.orange-color{
 }
 h4.red-color{
 	color:#E8474E;
+}
+p.initiate{
+    color:#3BE84F;
+}
+p.adept{
+	color:#E8474E;
+}
+p.journeyman{
+	color:#FFBC6C;
+}
+p.patron{
+	color: #76FFF8;
 }
