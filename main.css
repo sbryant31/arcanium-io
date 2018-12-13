@@ -112,13 +112,13 @@ body{
 }
 .container{
 	width: 300px;
-	padding: 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
+  	padding: 40px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
 	transform: translate(-50%,-50%);
 	background: #191919;
-	text-align: center;
+  	text-align: center;
 }
 span.arcanium{
 	color:#4583E8;
@@ -222,5 +222,3 @@ p.journeyman{
 p.patron{
 	color: #76FFF8;
 }
-
-
