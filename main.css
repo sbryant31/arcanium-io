@@ -197,7 +197,7 @@ h4.red-color{
 p.initiate{
     color:#3BE84F;
     position: relative;
-    left:51px;
+    left:55px;
     top: 15px;
     font-family: sans-serif;
 }
@@ -212,6 +212,13 @@ p.adept{
 	color:#E8474E;
 	position:relative;
     left: 51px;
+    top: 15px;
+    font-family: sans-serif;
+}
+p.nickadept{
+	color:#E8474E;
+	position:relative;
+    left: 70px;
     top: 15px;
     font-family: sans-serif;
 }
@@ -237,4 +244,3 @@ p.edit{
     line-height: 33px;
     margin-top: 10px;
 }
-
