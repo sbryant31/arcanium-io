@@ -10,6 +10,28 @@ form{
 	display: flex;
 	flex-direction: column;
 }
+img{
+	width:200px;
+	border-radius: 25%;
+    padding: 10px;
+    border-style: ridge;
+    float: left;
+    margin: 10px;
+    border-width: 2px;
+    height: 195px;
+}
+img.journeyman{
+	border-color:#FFBC6C;
+}
+img.adept{
+	border-color:#E8474E;
+}
+img.initiate{
+	border-color:#3BE84F;
+}
+img.patron{
+	border-color:#76FFF8; 
+}
 h1{
 	text-align: center;
 	font-size:50px;
@@ -109,6 +131,9 @@ h2.application{
 	background-color: #222223;
 	padding: 2px;
 }
+div{
+	display: inline-block;
+}
 a.indexcolor{
 	border-color: #4583E8;
 }
@@ -171,13 +196,45 @@ h4.red-color{
 }
 p.initiate{
     color:#3BE84F;
+    position: relative;
+    left:51px;
+    top: 15px;
+    font-family: sans-serif;
+}
+p.grimmly{
+	color:#E8474E;
+	position:relative;
+    left: 38px;
+    top: 15px;
+    font-family: sans-serif;
 }
 p.adept{
 	color:#E8474E;
+	position:relative;
+    left: 51px;
+    top: 15px;
+    font-family: sans-serif;
 }
 p.journeyman{
-	color:#FFBC6C;
+    color: #FFBC6C;
+    position: relative;
+    left:43px;
+    top: 15px;
+    font-family: sans-serif;
 }
 p.patron{
+	position: relative;
+    left: 75px;
 	color: #76FFF8;
+	top: 15px;
+	font-family: sans-serif;
 }
+p.edit{
+	font-size: 21px;
+    font-family: inherit;
+    position: relative;
+    top: 10px;
+    line-height: 33px;
+    margin-top: 10px;
+}
+
