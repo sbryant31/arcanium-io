@@ -13,12 +13,12 @@ form{
 img{
 	width:200px;
 	border-radius: 25%;
-    padding: 10px;
-    border-style: ridge;
-    float: left;
-    margin: 10px;
-    border-width: 2px;
-    height: 195px;
+		padding: 10px;
+		border-style: ridge;
+		float: left;
+		margin: 10px;
+		border-width: 2px;
+		height: 195px;
 }
 img.journeyman{
 	border-color:#FFBC6C;
@@ -39,20 +39,20 @@ h1{
 }
 h2{
 	text-align: center;
-    border-style:solid;
-    border-radius:5px;
-    border-color:#1f2021;
-    border-width:2px;
-    padding: 2px;
+		border-style:solid;
+		border-radius:5px;
+		border-color:#1f2021;
+		border-width:2px;
+		padding: 2px;
 }
 h3{
 	text-align:center;
 	font-size:25px;
-    margin-top:0px;
-    padding: 2px;
+		margin-top:0px;
+		padding: 2px;
 }
 h4{
-    text-decoration:underline;
+		text-decoration:underline;
 }
 form{
 	border-style: solid;
@@ -72,12 +72,12 @@ form .about{
 	margin-bottom: 15px;
 }
 a{
-  color:#868686;
-  text-decoration:none;
-  border-style:solid;
-  border-radius:5px;
-  border-width:2px;
-  padding: 5px;
+	color:#868686;
+	text-decoration:none;
+	border-style:solid;
+	border-radius:5px;
+	border-width:2px;
+	padding: 5px;
 }
 a:hover{
 	background-color:#3a3b3d;
@@ -195,52 +195,52 @@ h4.red-color{
 	color:#E8474E;
 }
 p.initiate{
-    color:#3BE84F;
-    position: relative;
-    left:55px;
-    top: 15px;
-    font-family: sans-serif;
+		color:#3BE84F;
+		position: relative;
+		left:55px;
+		top: 15px;
+		font-family: sans-serif;
 }
 p.grimmly{
 	color:#E8474E;
 	position:relative;
-    left: 38px;
-    top: 15px;
-    font-family: sans-serif;
+		left: 38px;
+		top: 15px;
+		font-family: sans-serif;
 }
 p.adept{
 	color:#E8474E;
 	position:relative;
-    left: 51px;
-    top: 15px;
-    font-family: sans-serif;
+		left: 51px;
+		top: 15px;
+		font-family: sans-serif;
 }
 p.nickadept{
 	color:#E8474E;
 	position:relative;
-    left: 70px;
-    top: 15px;
-    font-family: sans-serif;
+		left: 70px;
+		top: 15px;
+		font-family: sans-serif;
 }
 p.journeyman{
-    color: #FFBC6C;
-    position: relative;
-    left:43px;
-    top: 15px;
-    font-family: sans-serif;
+		color: #FFBC6C;
+		position: relative;
+		left:43px;
+		top: 15px;
+		font-family: sans-serif;
 }
 p.patron{
 	position: relative;
-    left: 75px;
+		left: 75px;
 	color: #76FFF8;
 	top: 15px;
 	font-family: sans-serif;
 }
 p.edit{
 	font-size: 21px;
-    font-family: inherit;
-    position: relative;
-    top: 10px;
-    line-height: 33px;
-    margin-top: 10px;
+		font-family: inherit;
+		position: relative;
+		top: 10px;
+		line-height: 33px;
+		margin-top: 10px;
 }
