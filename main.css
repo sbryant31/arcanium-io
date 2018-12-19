@@ -66,7 +66,7 @@ form .about{
 	color:#595b5e;
 	font-size:35px;
 	color:#868686;
-	margin-top:10px;
+	margin-top:20px;
 	padding: 5px 5px 5px 5px;
 	font-family: sans-serif;
 	margin-bottom: 15px;
@@ -74,13 +74,9 @@ form .about{
 a{
 	color:#868686;
 	text-decoration:none;
-	border-style:solid;
-	border-radius:5px;
-	border-width:2px;
 	padding: 5px;
-}
-a:hover{
-	background-color:#3a3b3d;
+	font-size: 25px;
+	border-radius: 10px;
 }
 body{
 	background-color:#2e2f30;
@@ -93,34 +89,28 @@ body{
 }
 .container{
 	width: 300px;
-	padding: 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
+		padding: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
 	transform: translate(-50%,-50%);
 	background: #191919;
+		text-align: center;
+}
+span{
 	text-align: center;
+	font-size:50px;
+	margin-bottom:0px;
+	display: inline;
 }
 span.arcanium{
-	color:#4583E8;
-	display: inline;
-	text-align: center;
-	font-size:50px;
-	margin-bottom:0px;
+	color:#AED9E0;
 }
 span.arcanium2{
-	color: #E85B63;
-	text-align: center;
-	font-size:50px;
-	margin-bottom:0px;
-	display: inline;
+	color: #FFA69E;
 }
 span.arcanium3{
-	color:#1CE872;
-	text-align: center;
-	font-size:50px;
-	margin-bottom:0px;
-	display: inline;
+	color:#B8F2E6;
 }
 h2.application{
 	text-align: center;
@@ -137,20 +127,38 @@ div{
 a.indexcolor{
 	border-color: #4583E8;
 }
+a.indexcolor:hover{
+	background-color: #FFA69E;
+}
 a.academycolor{
 	border-color: #794DE8;
+}
+a.academycolor:hover{
+	background-color:  #FAF3DD;
 }
 a.rostercolor{
 	border-color: #E85B63;
 }
+a.rostercolor:hover{
+	background-color: #B8F2E6;
+}
 a.hirecolor{
 	border-color: #1CE872;
+}
+a.hirecolor:hover{
+	background-color: #AED9E0;
 }
 a.joinuscolor{
 	border-color: #EA8239;
 }
+a.joinuscolor:hover{
+	background-color: #FFA69E;
+}
 a.join{
 	border-color: #4583E8;
+}
+a.join:hover{
+	background-color: #2B2E34;
 }
 h2.hireborder{
 	border-color:#1CE872;
