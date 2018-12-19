@@ -5,3 +5,4 @@
 # yellow : #FAF3DD
 # green : #B8F2E6
 # lightblue : #AED9E0
+# darkblue: : #2B2E34
