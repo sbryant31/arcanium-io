@@ -76,7 +76,10 @@ a{
 	text-decoration:none;
 	padding: 5px;
 	font-size: 25px;
+	background-color: #2f2c2cba;
 	border-radius: 10px;
+	border-style: solid;
+	border-width: thin;
 }
 body{
 	background-color:#2e2f30;
