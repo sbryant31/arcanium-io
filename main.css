@@ -133,11 +133,11 @@ a.academycolor:hover{
 }
 
 a.rostercolor:hover{
-	color: #5982E0;
+	color: #5EF2D4;
 }
 
 a.hirecolor:hover{
-	color: #5EF2D4;
+	color: #5982E0;
 }
 
 a.joinuscolor:hover{
@@ -235,5 +235,3 @@ p.edit{
 		line-height: 33px;
 		margin-top: 10px;
 }
-
-
