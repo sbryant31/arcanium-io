@@ -191,6 +191,7 @@ h4.red-color{
 }
 p{
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	line-height: 21px;
 }
 p.initiate{
 		color:#3BE84F;
