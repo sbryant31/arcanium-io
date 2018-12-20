@@ -76,7 +76,7 @@ a{
 	text-decoration:none;
 	padding: 15px;
 	font-size: 25px;
-	background-color: #2e2f30;
+	background-color: #96969612;
 	border-radius: 10px;
 	border-style: solid;
 	border-width: thin;
@@ -153,7 +153,8 @@ a.joinuscolor:hover{
 }
 a.join{
 	border-style: none;
-	padding:0;
+	padding: 0;
+	background: none;
 }
 a.join:hover{
 	color: #FF8377;
@@ -225,7 +226,7 @@ p.adept{
 p.nickadept{
 	color:#E8474E;
 	position:relative;
-		left: 70px;
+		left: 62px;
 		top: 15px;
 }
 p.journeyman{
