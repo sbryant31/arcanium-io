@@ -153,6 +153,7 @@ a.joinuscolor:hover{
 }
 a.join{
 	border-style: none;
+	padding:0;
 }
 a.join:hover{
 	color: #FF8377;
