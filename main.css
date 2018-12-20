@@ -151,6 +151,9 @@ a.hirecolor:hover{
 a.joinuscolor:hover{
 	color: #9763FF;
 }
+a.join{
+	border-style: none;
+}
 a.join:hover{
 	color: #FF8377;
 }
