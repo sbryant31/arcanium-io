@@ -68,7 +68,7 @@ form .about{
 	color:#868686;
 	margin-top:20px;
 	padding: 5px 5px 5px 5px;
-	font-family: sans-serif;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 	margin-bottom: 15px;
 }
 a{
@@ -81,7 +81,7 @@ a{
 body{
 	background-color:#2e2f30;
 	color:#868686;
-	font-family:sans-serif;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 	font-weight:500;
 	max-width: 1080px;
 	margin: 0 auto !important;
@@ -89,13 +89,13 @@ body{
 }
 .container{
 	width: 300px;
-	padding: 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
+		padding: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
 	transform: translate(-50%,-50%);
 	background: #191919;
-	text-align: center;
+		text-align: center;
 }
 span{
 	text-align: center;
@@ -189,53 +189,51 @@ h4.orange-color{
 h4.red-color{
 	color:#E8474E;
 }
+p{
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
 p.initiate{
 		color:#3BE84F;
 		position: relative;
-		left:55px;
+		left:39px;
 		top: 15px;
-		font-family: sans-serif;
 }
 p.grimmly{
 	color:#E8474E;
 	position:relative;
-		left: 38px;
+		left: 12px;
 		top: 15px;
-		font-family: sans-serif;
-}
+ }
 p.adept{
 	color:#E8474E;
 	position:relative;
 		left: 51px;
 		top: 15px;
-		font-family: sans-serif;
 }
 p.nickadept{
 	color:#E8474E;
 	position:relative;
 		left: 70px;
 		top: 15px;
-		font-family: sans-serif;
 }
 p.journeyman{
 		color: #FFBC6C;
 		position: relative;
-		left:43px;
+		left:33px;
 		top: 15px;
-		font-family: sans-serif;
 }
 p.patron{
 	position: relative;
 		left: 75px;
 	color: #76FFF8;
 	top: 15px;
-	font-family: sans-serif;
 }
 p.edit{
 	font-size: 21px;
-		font-family: inherit;
 		position: relative;
 		top: 10px;
 		line-height: 33px;
 		margin-top: 10px;
 }
+
+
