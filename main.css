@@ -72,14 +72,19 @@ form .about{
 	margin-bottom: 15px;
 }
 a{
-	color:#868686;
+	color:#969696;
 	text-decoration:none;
-	padding: 5px;
+	padding: 15px;
 	font-size: 25px;
 	background-color: #2f2c2cba;
 	border-radius: 10px;
 	border-style: solid;
 	border-width: thin;
+	margin: 3px;
+	font-weight: 700;
+	border-top: none;
+	border-bottom: none;
+	font-weight: 700;
 }
 body{
 	background-color:#2e2f30;
