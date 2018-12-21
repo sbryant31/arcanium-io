@@ -1,24 +1,19 @@
-header{
-	border-style:solid;
-	border-top:black;
-	border-left:black;
-	border-right:black;
-	border-radius:5px;
-	border-width:2px;
-}
-form{
-	display: flex;
-	flex-direction: column;
-}
 img{
 	width:200px;
 	border-radius: 25%;
-		padding: 10px;
-		border-style: ridge;
-		float: left;
-		margin: 10px;
-		border-width: 2px;
-		height: 195px;
+    padding: 10px;
+    border-style: ridge;
+    float: left;
+    margin: 10px;
+    border-width: 2px;
+    height: 195px;
+}
+img#logo{
+	     border-radius: 0px;
+    border-style: none;
+    margin: auto;
+    height: 122px;
+    margin-top: -43px;
 }
 img.journeyman{
 	border-color:#FFBC6C;
@@ -39,20 +34,20 @@ h1{
 }
 h2{
 	text-align: center;
-		border-style:solid;
-		border-radius:5px;
-		border-color:#1f2021;
-		border-width:2px;
-		padding: 2px;
-		margin-top: 20px;
+    border-style:solid;
+    border-radius:5px;
+    border-color:#1f2021;
+    border-width:2px;
+    padding: 2px;
+    margin-top: 40px;
 }
 h3{
 	text-align:center;
-		margin-top:0px;
-		padding: 2px;
+    margin-top:0px;
+    padding: 2px;
 }
 h4{
-		text-decoration:underline;
+    text-decoration:underline;
 }
 form{
 	border-style: solid;
@@ -71,20 +66,28 @@ form .about{
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 	margin-bottom: 15px;
 }
+img.logo{
+	position: absolute;
+    border-radius: 0;
+    border-style: none;
+    top: -7px;
+    left: 333px;
+    height: 177px;
+}
 a{
-	color:#969696;
-	text-decoration:none;
-	padding: 15px;
-	font-size: 25px;
-	background-color: #96969612;
-	border-radius: 10px;
-	border-style: solid;
-	border-width: thin;
-	margin: 3px;
-	font-weight: 700;
-	border-top: none;
-	border-bottom: none;
-	font-weight: 700;
+  color:#969696;
+  text-decoration:none;
+  padding: 15px;
+  font-size: 20px;
+  background-color: #96969612;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  margin: 3px;
+  font-weight: 700;
+  border-top: none;
+  border-bottom: none;
+  font-weight: 700;
 }
 body{
 	background-color:#2e2f30;
@@ -97,13 +100,13 @@ body{
 }
 .container{
 	width: 300px;
-		padding: 40px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
+  	padding: 40px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
 	transform: translate(-50%,-50%);
 	background: #191919;
-		text-align: center;
+  	text-align: center;
 }
 span{
 	text-align: center;
@@ -137,7 +140,7 @@ a.indexcolor:hover{
 }
 
 a.academycolor:hover{
-	color:	#F9E39A;
+	color:  #F9E39A;
 }
 
 a.rostercolor:hover{
@@ -206,45 +209,45 @@ p{
 	line-height: 21px;
 }
 p.initiate{
-		color:#3BE84F;
-		position: relative;
-		left:39px;
-		top: 15px;
+    color:#3BE84F;
+    position: relative;
+    left:39px;
+    top: 15px;
 }
 p.grimmly{
 	color:#E8474E;
 	position:relative;
-		left: 12px;
-		top: 15px;
+    left: 12px;
+    top: 15px;
  }
 p.adept{
 	color:#E8474E;
 	position:relative;
-		left: 51px;
-		top: 15px;
+    left: 51px;
+    top: 15px;
 }
 p.nickadept{
 	color:#E8474E;
 	position:relative;
-		left: 62px;
-		top: 15px;
+    left: 62px;
+    top: 15px;
 }
 p.journeyman{
-		color: #FFBC6C;
-		position: relative;
-		left:33px;
-		top: 15px;
+    color: #FFBC6C;
+    position: relative;
+    left:33px;
+    top: 15px;
 }
 p.patron{
 	position: relative;
-		left: 75px;
+    left: 75px;
 	color: #76FFF8;
 	top: 15px;
 }
 p.edit{
 	font-size: 21px;
-		position: relative;
-		top: 10px;
-		line-height: 33px;
-		margin-top: 10px;
+    position: relative;
+    top: 10px;
+    line-height: 33px;
+    margin-top: 10px;
 }
