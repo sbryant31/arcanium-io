@@ -1,22 +1,22 @@
 img{
-	width:200px;
+	width:250px;
 	border-radius: 25%;
     padding: 10px;
     border-style: ridge;
     float: left;
     margin: 10px;
     border-width: 2px;
-    height: 195px;
-}
-img#logo{
-	     border-radius: 0px;
-    border-style: none;
-    margin: auto;
-    height: 122px;
-    margin-top: -43px;
+    height: 200px;
 }
 img.journeyman{
 	border-color:#FFBC6C;
+}
+img.logoedit{ 
+	justify-self: flex-start;
+    width: 280px;
+    height: 225px;
+    border-style: none;
+	border-style: none;
 }
 img.adept{
 	border-color:#E8474E;
@@ -34,7 +34,6 @@ h1{
 }
 h2{
 	text-align: center;
-    border-style:solid;
     border-radius:5px;
     border-color:#1f2021;
     border-width:2px;
@@ -56,8 +55,11 @@ form{
 form .about{
 	width: 200px;
 }
+.container-1{
+	display: flex;
+}
 .main-navigation{
-	text-align:center;
+	align-self: flex-end;
 	color:#595b5e;
 	font-size:5px;
 	color:#868686;
@@ -65,14 +67,6 @@ form .about{
 	padding: 5px 5px 5px 5px;
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 	margin-bottom: 15px;
-}
-img.logo{
-	position: absolute;
-    border-radius: 0;
-    border-style: none;
-    top: -7px;
-    left: 333px;
-    height: 177px;
 }
 a{
   color:#969696;
@@ -162,27 +156,6 @@ a.join{
 a.join:hover{
 	color: #FF8377;
 }
-h2.hireborder{
-	border-color:#1CE872;
-}
-h2.rosterborder{
-	border-color: #e85b63a8;
-}
-h2.theacademy{
-	border-color:#794DE8;
-}
-h2.patronborder{
-	border-color:#76FFF8; 
-}
-h2.softdev{
-	border-color: #4583e8ab;
-}
-h2.mother{
-	border-color:#794de8c4;
-}
-h2.arcanium4{
-	border-color:#EA8239;
-}
 h3.initiate{
 	color:#3BE84F;
 }
@@ -251,3 +224,5 @@ p.edit{
     line-height: 33px;
     margin-top: 10px;
 }
+
+
