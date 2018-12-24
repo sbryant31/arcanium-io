@@ -34,16 +34,24 @@
 .leadership {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .leadership>.leadership--container {
   width: 30%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .leadership>.leadership--container img {
   align-self: center;
   width: auto;
   height: 200px
+}
+
+.leadership>.leadership--container p {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
 }
 
 
@@ -52,7 +60,16 @@ h1{
   font-size:50px;
   margin-bottom: 0px;
 }
+
+.intro {
+}
+
+h1 {
+  color: #FF8377;
+}
+
 .stack {
+  background: #000;
   text-align: center;
 }
 h2{
@@ -76,7 +93,7 @@ form .about{
   width: 200px;
 }
 a {
-  color:#969696;
+  color:#c9c9c9;
   text-decoration:none;
   font-weight: 700;
 }
@@ -88,9 +105,10 @@ nav a {
 }
 body{
   background-color:#2e2f30;
-  color:#868686;
+  color:#d8d8d8;
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
   font-weight:500;
+  font-size: 18px;
   max-width: 1080px;
   margin: 0 auto !important;
   float: none !important;
@@ -132,31 +150,13 @@ h2.application{
 div{
   display: inline-block;
 }
-a.indexcolor:hover{
+a:hover{
   color: #FF8377;
 }
 
-a.academycolor:hover{
-  color:  #F9E39A;
-}
-
-a.rostercolor:hover{
-  color: #5EF2D4;
-}
-
-a.hirecolor:hover{
-  color: #5982E0;
-}
-
-a.joinuscolor:hover{
-  color: #9763FF;
-}
 a.join{
   padding: 0;
   background: none;
-}
-a.join:hover{
-  color: #FF8377;
 }
 h3.initiate{
   color:#3BE84F;
@@ -228,3 +228,10 @@ p.edit{
 }
 
 
+.cta {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
