@@ -246,6 +246,10 @@ p.edit{
   margin-top: 10px;
 }
 
+.cta .email {
+  font-size: 30px;
+  color: #5EF2D4;
+}
 
 .cta {
   margin-top: 50px;
