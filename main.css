@@ -13,6 +13,10 @@
 	justify-content: space-around;
 }
 
+.intro {
+	margin-top: 50px;
+}
+
 .intro>.services {
 	text-align: center;
 	display: flex;
@@ -62,6 +66,16 @@
 	animation: jiggle 0.5s infinite linear;
 }
 
+@keyframes transparentize {
+	0%	 { opacity: 1; }
+	100% { opacity: 0.65; }
+}
+
+@keyframes flare {
+	0%	 { box-shadow: 0px 0px 5px 1px #f4fc94 }
+	50% { box-shadow: 0px 0px 1000px 1000px #fce29a }
+	100% { box-shadow: 0px 0px 0px 0px #000 }
+}
 @keyframes jiggle {
 	/* start at 0deg and this scale size.
 		 scale size is repeated here to maintain smooth scaling */
@@ -73,7 +87,7 @@
 }
 
 .services--service img {
-	opacity: 0.4;
+	opacity: 0.8;
 	width: 80%;
 	height: auto;
 }
@@ -127,18 +141,18 @@
 	align-items: center;
 }
 
-.leadership>.leadership--container>p>a {
+.leadership>.leadership--container>a>p {
 	display: flex;
 	align-items: center;
 	justify-items: center;
 	justify-content: center;
 }
 
-.leadership>.leadership--container>p>a>img {
+.leadership>.leadership--container>a>p>a>img {
 	width: 20px;
 	height: 15px;
 }
-.leadership>.leadership--container>img {
+.leadership>.leadership--container>a>img {
 	align-self: center;
 	width: auto;
 	height: 200px;
@@ -188,10 +202,9 @@ a {
 }
 nav a {
 	padding: 15px;
-	font-size: 20px;
+	font-size: 16px;
 	margin: 3px;
 	color:#d8d8d8;
-	background-color:#2A2C2C;
 }
 
 .container{
@@ -284,7 +297,7 @@ p.edit{
 
 .cta .email {
 	font-size: 30px;
-	color: #5EF2D4;
+	color: #f4fc94;
 }
 
 .cta {
@@ -303,18 +316,22 @@ p.edit{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: 0.98;
-	border: #222324 2px solid;
+	opacity: 0.78;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-name: flare;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-delay: 0s;
 	z-index: -1;
 }
 
 .site-wrapper {
-	margin-top: 20px;
 	position: relative;
 	z-index: 10;
 	width: 100%;
 	height: 100%;
-	padding: 20px 100px 10px 100px;
+	padding: 25px;
 }
 
 body::before {
@@ -325,15 +342,19 @@ body::before {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	opacity: .8;
 	z-index: -1;
+	opacity: 1;
+
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-name: transparentize;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-delay: 0s;
 }
 
+
 body{
-	-webkit-transition: background-image 5s ease-in 2s; /* property duration timing-function delay */
-	-moz-transition: background-image 5s ease-in 2s;
-	-o-transition: background-image 5s ease-in 2s;
-	transition: background-image 5s ease-in 2s;
 	background-image: url('images/bg.png');
 	background-attachment: fixed;
 	background-color:#000;
