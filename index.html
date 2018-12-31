@@ -2,95 +2,125 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <title>Arcanium.io - Modern software development with a UNIX heritage</title>
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <div class="top-container">
-      <img src="images/logo2.png" class="logo">
-      <nav class="main-navigation">
-        <div class="box-1">
-          <a href="index.html#tech" class="indexcolor">Tech</a>
+    <div class="site-wrapper">
+      <div class="top-container">
+        <img src="images/logo2.png" class="logo">
+        <nav class="main-navigation">
+          <div class="box-1">
+            <a href="index.html#tech" class="indexcolor">Tech</a>
+          </div>
+          <div class="box-1">
+            <a href="index.html#portfolio" class="indexcolor">Portfolio</a>
+          </div>
+          <div class="box-1">
+            <a href="index.html#leadership" class="indexcolor">About Us</a>
+          </div>
+          <div class="box-1">
+            <a href="index.html#contact" class="indexcolor">Contact</a>
+          </div>
+          <div class="box-2">
+            <a href="academy.html" class="academycolor">Apprenticeship</a>
+          </div>
+        </nav>
+      </div>
+
+      <section class="main-container">
+        <a name="tech"></a>
+        <div class="intro">
+          <h1 class="header-intro">We'll handle the tech part.</h1>
+          <p>
+            Arcanium makes your product a reality so you can focus on your business. We are an experienced, <a href="#mission">mission-driven</a> development agency that specializes in best-practices development that you can rely on.
+          </p>
+          <div class="services">
+            <div class="services--service fullstack">
+              <a href="#stack"><img src="images/js.png" /></a>
+            </div>
+            <div class="services--service mobile">
+              <a href="#stack"><img src="images/reactnative.png" /></a>
+            </div>
+            <div class="services--service cloud">
+              <a href="#stack"><img src="images/k8s.png" /></a>
+            </div>
+            <div class="services--service fullstack">
+              <p>Full Stack</p>
+            </div>
+            <div class="services--service mobile">
+              <p>Cross-platform Mobile</p>
+            </div>
+            <div class="services--service cloud">
+              <p>Cloud Architecture</p>
+            </div>
+          </div>
         </div>
-        <div class="box-1">
-          <a href="index.html#leadership" class="indexcolor">Leadership</a>
+
+        <a name="stack"></a>
+        <div class="tech">
+          <h1 class="header-tech">Powerful, Elegant Tech Stack</h1>
+          <p>We value simplicity and expressiveness. That is why we've chosen full stack javascript development, utilizing the latest open source developments to attain maximum leverage (thanks, <a href="http://paulgraham.com/wealth.html" target="new">Paul Graham</a>!)
+          <div class="stack">
+            <img src="images/stack.png">
+          </div>
         </div>
-        <div class="box-1">
-          <a href="index.html#contact" class="indexcolor">Contact</a>
+
+        <a name="portfolio"></a>
+        <div class="portfolio">
+          <h1 class="header-team-integration">Past Work</h1>
+          <div class="projects">
+            <a href="https://roobet.gg"><img height="60px" src="images/roobet.svg" /></a>
+            <a href="https://eloot.gg"><img height="60px" src="images/eloot.svg" /></a>
+            <a href="https://ytlite.com"><img height="60px" src="images/ytlite.svg" /></a>
+          </p>
         </div>
-        <div class="box-2">
-          <a href="academy.html" class="academycolor">Bootcamp</a>
+
+        <a name="leadership"></a>
+        <div class="leadership-section">
+          <h1 class="header-leadership">Leadership</h1>
+          <div class="leadership">
+            <div class="leadership--container">
+              <img src="images/nick.jpeg">
+              <p><a href="http://linkedin.com/in/nickbryant123"><img src="images/linkedin.png" /> Nick Bryant</a></p>
+              <p>Backend/Devops Lead</p>
+            </div>
+            <div class="leadership--container">
+              <img src="images/chris.jpeg">
+              <p><a href="http://linkedin.com/in/chris-kanze-82b32079"><img src="images/linkedin.png" /> Chris Kanze</a></p>
+              <p>Frontend/Design Lead</p>
+            </div>
+          </div>
+          <p>
+            Nick and Chris are a web development dream team who have been building startups together for several years. Prior to that, Nick Worked at NASA and Sharpspring.com while Chris spent his time launching his own products.
+          </p>
+          <p>
+            All members of Arcanium are trained via a rigorous <a href="academy.html">apprenticeship</a> to meet our coding and cultural standards. Every Arcanium employee is a full stack, startup-oriented web developer.
+          </p>
         </div>
-      </nav>
+        <a name="mission"></a>
+        <div class="mission">
+          <h1>Our Mission</h1>
+          <p>We love coding so much that we want to share it with the world.  We provide deep one-on-one mentorship and internships through our <a href="bootcamp.html">Intensive, 1-2 year Code Apprenticeship</a>. For those who cannot otherwise afford a bootcamp or education, we provide tuition free options and the ability to earn-while-you-learn (inspired by the manual trades such as Carpentry and Electrician apprenticeships).
+        </div>
+        <a name="contact"></a>
+        <div class="contact">
+          <h1 class="header-contact">Start the Conversation.</h1>
+          <p class="cta">Email <span class="email">hello@arcanium.io</span> to schedule a meeting.</p>
+        </div>
+      </section>
+      <footer class="footer-container">
+        <p>Nativesync, LLC is a remote-first, digital nomad, people-first technology agency. We seek an end to suffering for all beings. Namaste. &#9774;</p>
+        <p>
+          +1-206-355-1980
+          hello@arcanium.io
+        </p>
+        <p>
+          300 E South St #3001
+          Orlando, FL 32801
+        </p>
+      </footer>
     </div>
-
-    <section class="main-container">
-      <div class="intro">
-        <h1 class="header-intro">Full Stack Javascript Wizards</h1>
-        <p>We are seasoned javascript wizards ready to integrate with your development process. Whether you require additional developer bandwidth or a full service build, we have the expertise to deliver on-time, above expectation.</p>
-      </div>
-
-      <div>
-        <h1 class="header-team-integration">Full Team Integration</h1>
-        <p>
-          We attend your stand ups, participate in product discussions and architect best-practices systems. Our engineers have spent years building
-        </p>
-      </div>
-      <a name="tech"></a>
-      <div>
-        <h1 class="header-tech">Our Tech Stack</h1>
-        <p>
-          Full stack javascript is our bread and butter. Typically using React for frontend, Node.JS for backend and React Native for cross-platfor mobile app development.
-          The benefits of using full stack javascript are:
-          <ul>
-            <li>Easier to hire team members with a single language</li>
-            <li>The Javascript/Node.js community is extremely active in terms of libraries and support</li>
-            <li>Javascript is a constantly evolving language</li>
-            <li>The dynamic and performant nature of the language allow rapid development cycles</li>
-          </ul>
-        </p>
-        <p>
-          We deploy our services on the cloud using Docker and a cluster management system like Kubernetes. These are the same techniques Google uses to ensure their search engine always works, 24/7. The benefits of using these solutions are:
-          <ul>
-            <li>State of the art reliability techniques lower the prevalence of site outages</li>
-            <li>Bugs are found and solved faster with continuous integration</li>
-            <li>Easy to move between AWS, Google Cloud, or your own servers</li>
-            <li>Scaling is a breeze with a distributed microservice architecture</li>
-          </ul>
-        </p>
-        <div class="stack">
-          <a frameborder="0" data-theme="dark" data-layers="1,3" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/49e01d86ca48be39cef746e7831cca"/></a>    <script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
-        </div>
-      </div>
-      <a name="leadership"></a>
-      <div>
-        <h1 class="header-leadership">Leadership</h1>
-        <div class="leadership">
-          <div class="leadership--container">
-            <img src="images/nick.jpeg">
-            <p><a href="http://linkedin.com/in/nickbryant123"><img src="images/linkedin.png" /> Nick Bryant</a></p>
-            <p>Backend/Devops Lead</p>
-          </div>
-          <div class="leadership--container">
-            <img src="images/chris.jpeg">
-            <p><a href="http://linkedin.com/in/chris-kanze-82b32079"><img src="images/linkedin.png" /> Chris Kanze</a></p>
-            <p>Frontend/Design Lead</p>
-          </div>
-        </div>
-        <p>
-          Nick and Chris are a web development dream team who have been building startups together for several years. Prior to that, Nick Worked at NASA and Sharpspring.com while Chris spent his time launching his own products.
-        </p>
-        <p>
-          All members of Arcanium through a rigorous <a href="academy.html">bootcamp</a> to meet our coding and cultural standards. Every Arcanium employee is a full stack, startup-oriented web developer.
-        </p>
-      </div>
-      <a name="contact"></a>
-      <div>
-        <h1 class="header-contact">Start the Conversation.</h1>
-        <p class="cta">Email <span class="email">hello@arcanium.io</span> to schedule a meeting.</p>
-      </div>
-    </section>
-    <footer class="footer-container">
-    </footer>
   </body>
 </html>
