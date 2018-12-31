@@ -161,7 +161,7 @@
 
 h1{
   text-align: center;
-  font-size:35px;
+  font-size:40px;
   margin-bottom: 0px;
   font-size: 72px;
   color: #90cafd;
@@ -302,6 +302,7 @@ p.edit{
 
 .site-wrapper::before {
   background-color:#2e2f30;
+  background-image: url('images/carbon2.png');
   content: "";
   position: absolute;
   top: 0;
@@ -330,10 +331,8 @@ body::before {
   z-index: -1;
   opacity: 1;
 
-  background-image: url('images/bg.png');
+  background-image: url('images/axiom-pattern.png');
   background-color: #000;
-  filter: blur(1px) grayscale(45%);
-  -webkit-filter: blur(1px) grayscale(45%);
   background-attachment: fixed;
 }
 
