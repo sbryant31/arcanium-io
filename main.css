@@ -23,19 +23,22 @@
 }
 
 .intro>.services>.fullstack {
-	background: -webkit-linear-gradient(180deg, #F9F3DA, #F9E39A);
+	color: #f4fc94;
+	background: -webkit-linear-gradient(180deg, #f4fc94, #fce29a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .intro>.services>.cloud {
-	background: -webkit-linear-gradient(180deg, #8EF2F4, #5EF2D4);
+	color: #fdb890;
+	background: -webkit-linear-gradient(180deg, #fdb890, #fdb890);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .intro>.services>.mobile {
-	background: -webkit-linear-gradient(180deg, #89A2F0, #5982E0);
+	color: #90cafd;
+	background: -webkit-linear-gradient(180deg, #90cafd, #90cafd);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -52,6 +55,23 @@
 	font-size: 30px;
 	font-weight: 500;
 }
+.services--service img:hover {
+	/* on hover - scale to this x,y size */
+	transform: scale(1.05,0.15);
+	/* property values: name, duration, iteration, timing-function */
+	animation: jiggle 0.5s infinite linear;
+}
+
+@keyframes jiggle {
+	/* start at 0deg and this scale size.
+		 scale size is repeated here to maintain smooth scaling */
+	0% {transform: rotate(0deg) scale(1.15,1.15);}
+	/* midway rotate 2deg right */
+	50% {transform: rotate(2deg) scale(1.15,1.15);}
+	/* end rotate -2deg left */
+	100% {transform: rotate(-2deg) scale(1.15,1.15)}
+}
+
 .services--service img {
 	opacity: 0.4;
 	width: 80%;
@@ -63,8 +83,8 @@
 	width: 100%;
 }
 .logo {
-	width: 200px;
-	height: 150px;
+	width: 381.3px;
+	height: 100px;
 	justify-self: flex-start;
 }
 .main-navigation{
@@ -138,10 +158,7 @@ h1{
 	font-size:50px;
 	margin-bottom: 0px;
 	font-size: 72px;
-	color: #FF8377;
-	background: -webkit-linear-gradient(180deg, #EE5155, #FF8377);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #90cafd;
 }
 
 .stack {
@@ -156,7 +173,7 @@ h3{
 	padding: 2px;
 }
 h4 {
-	text-decoration:underline;
+	color: #90cafd;
 }
 form{
 	border-color: white;
@@ -165,7 +182,7 @@ form .about{
 	width: 200px;
 }
 a {
-	color: #5982E0;
+	color: #90cafd;
 	text-decoration:none;
 	font-weight: 700;
 }
@@ -194,7 +211,7 @@ span{
 	display: inline;
 }
 span.arcanium{
-	color:#FF8377;
+	color:#FD8686;
 }
 span.arcanium2{
 	color: #5982E0;
@@ -215,36 +232,12 @@ div{
 	display: inline-block;
 }
 a:hover{
-	color: #89A2F0;
+	color: #cfe4ff;
 }
 
 a.join{
 	padding: 0;
 	background: none;
-}
-h3.initiate{
-	color:#3BE84F;
-}
-h3.apprentice{
-	color:#E86039;
-}
-h3.adept{
-	color:#E8474E;
-}
-h3.journeyman{
-	color:#FFBC6C;
-}
-h4.green-color{
-	color:#3BE84F;
-}
-h4.orange-color{
-	color:#E86039;
-}
-h4.red-color{
-	color:#E8474E;
-}
-p{
-	line-height: 21px;
 }
 p.initiate{
 		color:#3BE84F;
@@ -286,7 +279,6 @@ p.edit{
 	font-size: 21px;
 	position: relative;
 	top: 10px;
-	line-height: 33px;
 	margin-top: 10px;
 }
 
@@ -333,11 +325,15 @@ body::before {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	opacity: .5;
+	opacity: .8;
 	z-index: -1;
 }
 
 body{
+	-webkit-transition: background-image 5s ease-in 2s; /* property duration timing-function delay */
+	-moz-transition: background-image 5s ease-in 2s;
+	-o-transition: background-image 5s ease-in 2s;
+	transition: background-image 5s ease-in 2s;
 	background-image: url('images/bg.png');
 	background-attachment: fixed;
 	background-color:#000;
@@ -345,7 +341,6 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-weight:500;
 	font-size: 26px;
-	line-height: 1.6;
 	max-width: 1080px;
 	margin: 0 auto !important;
 	float: none !important;
