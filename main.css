@@ -74,12 +74,12 @@ section .page {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: calc(100vh);
+  min-height: calc(100vh);
   width: 100%;
 }
 
 section .intro {
-  height: calc(100vh - 112px);
+  min-height: calc(100vh - 112px);
 }
 
 
