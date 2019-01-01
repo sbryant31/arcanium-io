@@ -9,73 +9,73 @@
   </head>
   <body>
     <div class="site-wrapper">
-      <div class="top-container">
-        <a href="index.html"><img src="images/logo_transparent.png" class="logo"></a>
-        <nav class="main-navigation">
-          <a href="index.html#tech" class="indexcolor">Tech</a>
-          <a href="index.html#portfolio" class="indexcolor">Portfolio</a>
-          <a href="index.html#leadership" class="indexcolor">About Us</a>
-          <a href="index.html#contact" class="indexcolor">Contact</a>
-          <a href="academy.html" class="academycolor">Apprenticeship</a>
-        </nav>
-      </div>
+      <section class="top">
+        <div class="top-container">
+          <a href="index.html"><img src="images/logo_transparent.png" class="logo"></a>
+          <nav class="main-navigation">
+            <a href="index.html#tech" class="indexcolor">Tech</a>
+            <a href="index.html#portfolio" class="indexcolor">Portfolio</a>
+            <a href="index.html#leadership" class="indexcolor">About Us</a>
+            <a href="index.html#contact" class="indexcolor">Contact</a>
+            <a href="academy.html" class="academycolor">Apprenticeship</a>
+          </nav>
+        </div>
+      </section>
 
       <section class="main-container">
-        <div class="landing">
-          <div class="intro">
-            <h1 class="header-intro">We'll handle the dev side.</h1>
-            <p>
-              Arcanium builds solid products so you can focus on running your business.  We are an experienced, best practices development agency that you can rely on.
-            </p>
-            <div class="services">
-              <div class="services--service fullstack">
-                <a href="#stack"><img src="images/js.png" /></a>
-              </div>
-              <div class="services--service mobile">
-                <a href="#stack"><img src="images/reactnative.png" /></a>
-              </div>
-              <div class="services--service cloud">
-                <a href="#stack"><img src="images/k8s.png" /></a>
-              </div>
-              <div class="services--service fullstack">
-                <p>Complete Web Solutions</p>
-              </div>
-              <div class="services--service mobile">
-                <p>Cross-platform Mobile</p>
-              </div>
-              <div class="services--service cloud">
-                <p>Cloud Architecture</p>
-              </div>
+        <section class="page intro">
+          <h1 class="header-intro">We'll handle the dev side.</h1>
+          <p>
+            Arcanium builds solid products so you can focus on running your business.  We are an experienced, best practices development agency that you can rely on.
+          </p>
+          <div class="services">
+            <div class="services--service fullstack">
+              <a href="#stack"><img src="images/js.png" /></a>
+            </div>
+            <div class="services--service mobile">
+              <a href="#stack"><img src="images/reactnative.png" /></a>
+            </div>
+            <div class="services--service cloud">
+              <a href="#stack"><img src="images/k8s.png" /></a>
+            </div>
+            <div class="services--service fullstack">
+              <p>Complete Web Solutions</p>
+            </div>
+            <div class="services--service cloud">
+              <p>Cloud Architecture</p>
+            </div>
+            <div class="services--service mobile">
+              <p>Cross-platform Mobile</p>
             </div>
           </div>
-          <div>
-            <a href="#tech" class="cta-button">View our tech stack  <i class="fas fa-angle-double-down"></i></a>
-         </div>
-        </div>
+          <a href="#tech" class="cta-button">View our tech stack  <i class="fas fa-angle-double-down"></i></a>
+        </section>
 
         <a name="tech"></a>
         <a name="stack"></a>
-        <div class="tech">
+        <section class="page tech">
           <h1 class="header-tech">Elegant, powerful technology choices</h1>
           <p>We value simplicity and expressiveness. That is why we've chosen full stack javascript development, utilizing the latest open source developments to attain maximum leverage (thanks, <a href="http://paulgraham.com/wealth.html" target="new">Paul Graham</a>!)
           <div class="stack">
             <img src="images/stack.png">
           </div>
-        </div>
+          <a href="#portfolio" class="cta-button">Our Work <i class="fas fa-angle-double-down"></i></a>
+        </section>
 
         <a name="portfolio"></a>
-        <div class="portfolio">
-          <h1 class="header-team-integration">Happy clients</h1>
+        <section class="page portfolio">
+          <h1 class="header-team-integration">Past Work</h1>
           <div class="projects">
-            <a href="https://roobet.gg"><img height="60px" src="images/roobet.svg" /></a>
-            <a href="https://eloot.gg"><img height="60px" src="images/eloot.svg" /></a>
-            <a href="https://ytlite.com"><img height="60px" src="images/ytlite.svg" /></a>
-            <a href="https://livevoice.com"><img style="background-color: #fff; padding: 5px; border-radius: 5px;" height="50px" src="images/livevoice.png" /></a>
+            <a class="left" href="https://roobet.gg"><img width="300px" src="images/roobet.svg" /></a>
+            <a class="right" href="https://eloot.gg"><img width="300px" src="images/eloot.svg" /></a>
+            <a class="left" href="https://ytlite.com"><img width="300px" src="images/ytlite.svg" /></a>
+            <a class="right" href="https://livevoice.com"><img style="background-color: #ddd; padding: 5px 30px 5px 30px; border-radius: 4px;" width="240px" src="images/livevoice.png" /></a>
           </div>
-        </div>
+          <a href="#leadership" class="cta-button">Meet the team <i class="fas fa-angle-double-down"></i></a>
+        </section>
 
         <a name="leadership"></a>
-        <div class="leadership-section">
+        <section class="page leadership-section">
           <h1 class="header-leadership">Leadership</h1>
           <div class="leadership">
             <div class="leadership--container">
@@ -99,12 +99,14 @@
           <p>
             All of our developers are trained via a rigorous <a href="academy.html">apprenticeship</a> to meet our coding and cultural standards. Every Arcanium employee is a full stack, startup-oriented web developer.
           </p>
-        </div>
+          <a href="#contact" class="cta-button">Learn more <i class="fas fa-angle-double-down"></i></a>
+        </section>
         <a name="contact"></a>
-        <div class="contact">
-          <h1 class="header-contact">Let's start a conversation.</h1>
+        <section class="page contact">
+          <h1 class="header-contact">Let's make some magic.</h1>
+          <a href="mailto:hello@arcanium.io"><i class="cta-icon fas fa-hat-wizard"></i></a>
           <p class="cta">Email <span class="email">hello@arcanium.io</span> to schedule a meeting.</p>
-        </div>
+        </section>
       </section>
       <footer class="footer-container">
         <p>Arcanium, LLC is a remote-first, digital nomad, people-first technology agency. We seek an end to suffering for all beings. Namaste. &#9774;</p>
