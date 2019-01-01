@@ -318,7 +318,7 @@ p.edit{
   margin-top: 10px;
 }
 
-.cta .email {
+.cta .email, .emphasis {
   font-size: 30px;
   color: #f4fc94;
 }
@@ -385,4 +385,10 @@ body{
 footer {
   width: 100%;
   font-size: 12px;
+}
+
+.strike {
+  color: #bbb;
+  text-decoration: line-through;
+  font-size: 0.5em;
 }
