@@ -184,6 +184,8 @@ section .intro {
   height: 200px;
   margin-bottom: 5px;
   margin-top: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
 }
 
 .leadership>.leadership--container p {
@@ -395,4 +397,24 @@ footer {
   color: #bbb;
   text-decoration: line-through;
   font-size: 0.5em;
+}
+.testimonial {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.testimonial img {
+  margin: 25px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.testimonial div {
+  display: flex;
+  flex-direction: column;
+}
+.testimonial div a {
+  margin-left: auto;
 }
