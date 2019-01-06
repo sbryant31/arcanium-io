@@ -144,7 +144,6 @@ section .intro {
 
 .footer-container {
   display: flex;
-  margin-top: 100px;
   justify-content: space-around;
 }
 
