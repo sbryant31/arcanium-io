@@ -33,9 +33,10 @@
 }
 
 .intro>.services {
-  text-align: center;
   display: flex;
   flex-direction: row;
+  flex: 1 1 33%;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
