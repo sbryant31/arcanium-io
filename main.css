@@ -19,11 +19,11 @@
 }
 
 .cta-button {
-  font-size: 50px;
+  font-size: 30px;
   width: auto;
   justify-self: flex-end;
   margin-top: 150px;
-  color: #EA8988;
+  color: #fff;
 }
 
 .cta-icon {
