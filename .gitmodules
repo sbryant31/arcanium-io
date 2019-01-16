@@ -1,6 +1,3 @@
-[submodule "Initiate-Hacker-Starter-Pack"]
-	path = Initiate-Hacker-Starter-Pack
-	url = git@github.com:ArcaniumAcademy/Initiate-Hacker-Starter-Pack.git
 [submodule "starter-pack"]
-	path = starter-pack
-	url = git@github.com:ArcaniumAcademy/Initiate-Hacker-Starter-Pack.git
+  path = starter-pack
+  url = git@github.com:ArcaniumAcademy/Initiate-Hacker-Starter-Pack.git
