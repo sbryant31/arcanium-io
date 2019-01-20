@@ -419,3 +419,7 @@ footer {
 .testimonial div a {
   margin-left: auto;
 }
+
+.small {
+  font-size: 0.5em;
+}
