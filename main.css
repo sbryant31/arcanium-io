@@ -21,7 +21,8 @@
   font-size: 30px;
   width: auto;
   justify-self: flex-end;
-  margin-top: 150px;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
   color: #fff;
 }
 
