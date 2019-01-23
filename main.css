@@ -26,7 +26,8 @@
 }
 
 .cta-icon {
-  background: linear-gradient(to right, #90CAFD 0%, #50A99B 100%);
+  margin-top: 20vh;
+  background: linear-gradient(to right, #d890fd 0%, #5551a8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 250px;
@@ -121,8 +122,14 @@ section .intro {
   display: flex;
 }
 .logo {
-  width: 305px;
+  width: auto;
   height: 80px;
+  justify-self: flex-start;
+}
+
+.logo-large {
+  width: 80%;
+  height: auto;;
   justify-self: flex-start;
 }
 .main-navigation{
@@ -130,7 +137,7 @@ section .intro {
   justify-self: flex-end;
   align-self: center;
   display: flex;
-  align-content: center;
+  flex-direction: column;
 }
 
 .main-container {
@@ -202,7 +209,7 @@ h1{
   margin-bottom: 0px;
   font-weight: 400;
   font-size: 72px;
-  color: #90cafd;
+  color: #d890fd;
 }
 
 .stack {
@@ -217,7 +224,7 @@ h3{
   padding: 2px;
 }
 h4 {
-  color: #90cafd;
+  color: #d890fd;
 }
 form{
   border-color: white;
@@ -226,7 +233,7 @@ form .about{
   width: 200px;
 }
 a {
-  color: #90cafd;
+  color: #d890fd;
   text-decoration:none;
   font-weight: 700;
 }
@@ -275,7 +282,7 @@ div{
   display: inline-block;
 }
 a:hover{
-  color: #cfe4ff;
+  color: #e4b9fa;
 }
 
 a.join{
@@ -327,7 +334,7 @@ p.edit{
 
 .cta .email, .emphasis {
   font-size: 30px;
-  color: #f4fc94;
+  color: #90cafd;
 }
 
 .cta {
@@ -422,4 +429,32 @@ footer {
 
 .small {
   font-size: 0.5em;
+}
+.social-icons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icons a {
+  padding: 0px;
+}
+
+.social-icons img {
+  padding: 0px;
+  margin: 0px 2px 0px 2px;
+  width: 25px;
+  height: 25px;
+}
+
+.big-social-icons {
+  align-self: flex-center;
+}
+
+.big-social-icons img {
+  align-self: center;
+  padding: 0px;
+  margin: 0px 2px 0px 2px;
+  width: 50px;
+  height: 50px;
 }
