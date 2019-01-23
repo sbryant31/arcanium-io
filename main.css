@@ -125,6 +125,15 @@ section .intro {
   width: auto;
   height: 80px;
   justify-self: flex-start;
+  -webkit-transition: -webkit-transform .1s ease-in;
+          transition:         transform .1s ease-in;
+}
+
+.logo:hover {
+   -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
 }
 
 .logo-large {
@@ -438,9 +447,15 @@ footer {
 
 .social-icons a {
   padding: 0px;
+  margin: 0px;
+}
+
+.social-icons img:hover {
+  opacity: 1;
 }
 
 .social-icons img {
+  opacity: 0.75;
   padding: 0px;
   margin: 0px 2px 0px 2px;
   width: 25px;
