@@ -1,4 +1,8 @@
 
+.smaller {
+  font-size: 0.7em;
+  opacity: 0.8;
+}
 .projects {
   width: 100%;
   min-height: 40vh;
@@ -8,8 +12,7 @@
 }
 
 .projects a img {
-  border-radius: 10px;
-
+  border: 1px solid #fff;
 }
 
 .fas, .fab {
