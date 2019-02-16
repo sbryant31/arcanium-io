@@ -447,9 +447,7 @@ footer {
 	font-size: 0.5em;
 }
 .social-icons {
-	align-self: flex-end;
-	display: flex;
-	flex-direction: row;
+	display: inline;
 }
 
 .social-icons a {
