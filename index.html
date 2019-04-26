@@ -1,118 +1,795 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <title>Arcanium.io - Magical Software</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-  </head>
-  <body>
-    <div class="site-wrapper">
-      <section class="top">
-        <div class="top-container">
-          <a class="logo-container" href="index.html"><img src="images/arca.png" class="logo"></a>
-          <nav class="main-navigation">
-            <div>
-              <a href="index.html" class="indexcolor">About Us</a>
-              <a href="index.html#contact" class="indexcolor">Contact</a>
-              <a href="https://angel.co/arcanium-agency/jobs" class="academycolor">Careers</a>
-              <div class="social-icons">
-                <a href="http://github.com/arcaniumacademy"><img src="images/github.svg"></a>
-                <a href="http://linkedin.com/in/nickbryant123"><img src="images/linkedin.svg"></a>
-                <a href="https://twitter.com/arcaniumio"><img src="images/twitter.png"></a>
-                <a href="mailto:hello@arcanium.io"><img src="images/gmail.svg"></a>
-                <a href="tel:+17202958622"><img src="images/phone.svg"></a>
-              </div>
-            </div>
-          </nav>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Stellar</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-      </section>
-
-      <section class="main-container">
-        <section class="page intro">
-          <h1 class="header-intro"><a href="#stack">We Make Magical Software.</a></h1>
-          <h2>API Integration - Full Stack Development - Happy Customers</h2>
-          <a href="#tech" class="cta-button">View our Tech <i class="fas fa-angle-double-down"></i></a>
-        </section>
-
-        <a name="tech"></a>
-        <a name="stack"></a>
-        <section class="page tech">
-          <h1 class="header-tech"><a href="#portfolio">Architectural Elegance.</a></h1>
-          <h2>All we're missing is your business requirements.</h2>
-          <div class="stack">
-            <a href="#portfolio">
-              <img src="images/stack.png">
-            </a>
-          </div>
-          <a href="#portfolio" class="cta-button">Portfolio <i class="fas fa-angle-double-down"></i></a>
-        </section>
-
-        <a name="portfolio"></a>
-        <section class="page portfolio">
-          <h1 class="header-team-integration"><a href="#leadership">Past Clients</a></h1>
-          <h2>We care about doing the right thing. We're here to do beautiful work.</h2>
-          <div class="projects">
-            <a class="right" target="new" href="https://youtu.be/aWTc2x7DcXg"><img width="200px" style="background: #fff; padding: 10px" src="images/livevoice.png" /></a>
-            <a class="right" target="new" href="https://eloot.gg"><img width="200px" src="images/eloot.svg" /></a>
-          </div>
-          <a href="#leadership" class="cta-button">Meet Nick Bryant <i class="fas fa-angle-double-down"></i></a>
-        </section>
-
-        <a name="leadership"></a>
-        <section class="page leadership-section">
-          <h1 class="header-leadership"><a href="#contact">Nick Bryant, Lead Engineer</a></h1>
-          <div class="leadership">
-            <div class="leadership--container">
-              <a target="new" href="http://linkedin.com/in/nickbryant123">
-                <img src="images/nick.jpg">
-                <p><img src="images/linkedin.png" /> Nick Bryant</p>
-              </a>
-              <p class="smaller">I started my career at NASA Ames Intelligent Robotics Group. After that I was a senior engineer at <a href="https://sharpspring.com">Sharpspring.com</a>, Outreach.io. Now I apply my skills to help companies succeed with custom software.</p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <a target="new" href="http://linkedin.com/in/nick-tubis-211345a9/">
-              <img src="images/nicktubis.jpeg">
-            </a>
-            <div>
-              <p>
-                "Nick Bryant is an amazing full stack developer! ... I highly recommend working with him. He's an absolute genius"
-              </p>
-              <a href="http://linkedin.com/in/nick-tubis-211345a9/">
-                - Nick Tubis, CMO @ TSD Global
-              </a>
-            </div>
-          </div>
-          <a href="#contact" class="cta-button">Schedule a Call <i class="fas fa-angle-double-down"></i></a>
-        </section>
-
-        <a name="contact"></a>
-        <section class="page contact">
-          <h1 class="header-contact">Schedule a Call</h1>
-          <h2>We're ready to help.</h2>
-          <p class="cta">
-            <span class="email">hello@arcanium.io</span><br />
-            <a href="https://calendar.google.com/calendar/selfsched?sstoken=UUdJY3dTdzBGbDVTfGRlZmF1bHR8ZWQ5NDZlMzdmMmUzMGY4YmZhMzM1OTQyNTM0MTUwMWE">Schedule a Meeting via Google Calendar</a><br/>
-            +1 (720) 666-3245<br />
-            <div class="big-social-icons">
-              <a href="http://github.com/arcaniumacademy"><img src="images/github.svg"></a>
-              <a href="http://linkedin.com/in/nickbryant123"><img src="images/linkedin.svg"></a>
-              <a href="https://twitter.com/arcaniumio"><img src="images/twitter.png"></a>
-              <a href="mailto:hello@arcanium.io"><img src="images/gmail.svg"></a>
-              <a href="tel:+17202958622"><img src="images/phone.svg"></a>
-            </div>
-          </p>
-        </section>
-      </section>
-      <footer class="footer-container">
-        <p>
-          hello@arcanium.io
-          720-666-3245
-        </p>
-        <p>Namaste. &#9774;</p>
-      </footer>
     </div>
-  </body>
-</html>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="header-logo">
+                <a class="site-logo" href="index.html"><img src="images/logo.svg" alt="Homepage"></a>
+            </div>
+            
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#team" title="team">Team</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Past Work</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+            
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                Any sufficiently advanced technology is indistinguishable from magic.
+                </h1>
+
+                <div class="home-content__button">
+                    <a href="#about" class="smoothscroll btn btn-animatedbg">
+                      Your New Favorite Dev Team
+                    </a>
+                </div>
+
+                <!--
+                <div class="home-content__video">
+                    <a class="video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0" data-lity>
+                        <span class="video-icon"></span>
+                        <span class="video-text">Play Video</span>
+                    </a>
+                </div>
+                -->
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul> <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="01" class="subhead">Who We Are</h3>
+                <h1 class="display-1">
+                We're the agile dev team you've always wanted, without the agency overhead. Our secret? We focus on people.
+                </h1>
+                <p class="lead">
+                Our dedication to learning keeps us on the cutting edge. Together we craft modern web and mobile applications for startups and small business.
+                </p>
+            </div>
+        </div>
+
+        <div class="row about-process block-1-2 block-tab-full">
+
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--planning">
+                    <h3>Strategic</h3>
+                </div>
+                <p>
+                  <ul>
+                    <li>Rapid Prototyping</li>
+                    <li>Full Stack, Cross Platform</li>
+                    <li>Responsive Mobile Development</li>
+                    <li>Continuous Integration and Deployment</li>
+                    <li>API Integration</li>
+                    <li>Infrastructure Automation</li>
+                  </ul>
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--implementation">
+                    <h3>Modern Tech</h3>
+                </div>
+                <p>
+                  <ul>
+                    <li>Real Time Node.js</li>
+                    <li>React.js UI</li>
+                    <li>React Native Cross Platform Mobile</li>
+                    <li>Kubernetes/Docker for Auto Scaling</li>
+                    <li>AWS and Google Cloud</li>
+                  </ul>
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--branding">
+                    <h3>Creative</h3>
+                </div>
+                <p>
+                  <ul>
+                    <li>Responsive Web Design</li>
+                    <li>User Experience</li>
+                    <li>Product Research</li>
+                    <li>Content</li>
+                  </ul>
+                </p> 
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--documentation">
+                    <h3>Well Documented</h3>
+                </div>
+                <p>
+                  <ul>
+                    <li>Daily updates</li>
+                    <li>Weekly demos</li>
+                    <li>Architectural decision log</li>
+                    <li>Easily onboard new devs</li>
+                  </ul>
+                </p>
+            </div>
+
+        </div>  <!-- end about-process -->
+
+    </section> <!-- end s-about -->
+
+     <!-- team
+     ================================================== -->
+     <section id="team" class="s-services target-section">
+
+         <div class="row section-header" data-aos="fade-up">
+             <div class="col-full">
+                 <h3 data-num="02" class="subhead">Meet the Team</h3>
+                 <h1 class="display-1 display-1--light">
+                   How We Hire
+                 </h1>
+                 <p class="lead lead-light">
+                   We'd never settle for normal. We spend our Saturday nights configuring our text editors and adjusting pixels on our portfolios. Below is our standard process for onboarding new recruits!
+                 </p>
+             </div>
+         </div>
+
+         <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+             <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Seek Raw Talent</h4>
+                 <p>
+                   We seek out math majors, deviant artists and general hustlers looking to become something more. It's very common these days.
+                 </p>
+             </div>
+
+             <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Give them Books</h4>
+                 <p>
+                   We drop an insane amount of information on our recruits in the form of: books, tapes, mentoring sessions and bootcamps. This prepares them for the next step.
+                 </p>
+             </div>
+
+             <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Make Friends</h4>
+                 <p>
+                   The secret to building great things is to do it with people you like. We go on cool work retreats in the mountains and bribe them with ice cream. 
+                 </p>
+             </div>
+
+             <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Throw in Deep End</h4>
+                 <p>
+                   Armed with knowledge and the support of their friends, we throw our new recruits into the fire of sink-or-swim project work. This part is hilarious!
+                 </p>
+             </div>
+
+             <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Rescue before Drowning</h4>
+                 <p>
+                   Just as our new friends give up hope, senior staff comes to the rescue!
+                 </p>
+             </div>
+
+             <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Give them Ice Cream</h4>
+                 <p>
+                   We provide our newly traumatized recruits with ice cream and other treats.
+
+                   Generally*, this onboarding strategy works very well.
+                 </p>
+             </div>
+         </div> <!-- end services-list -->
+     </section> <!-- end s-services -->
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="03" class="subhead">Recent Work</h3>
+                <h1 class="display-1">
+                Here are some of our favorite projects we have
+                done lately. Feel free to check them out.
+                </h1>
+            </div>
+        </div>
+
+        <div class="portfolio block-1-4 block-m-1-3 block-tab-1-2 collapse">
+            
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                        <img src="images/portfolio/lamp.jpg" 
+                             srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Lamp
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
+                        <img src="images/portfolio/fuji.jpg" 
+                             srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Fuji
+                    </h3>
+                    <p class="item-folio__cat">
+                        Branding
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                        <img src="images/portfolio/woodcraft.jpg" 
+                             srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Woodcraft
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-droplet.jpg" class="thumb-link" title="Droplet" data-size="1050x700">
+                        <img src="images/portfolio/droplet.jpg" 
+                             srcset="images/portfolio/droplet.jpg 1x, images/portfolio/droplet@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Droplet
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Development
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                        <img src="images/portfolio/shutterbug.jpg" 
+                             srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Shutterbug
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" title="Minimalismo" data-size="1050x700">
+                        <img src="images/portfolio/minimalismo.jpg" 
+                             srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Minimalismo
+                    </h3>
+                    <p class="item-folio__cat">
+                        UX Design
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-film.jpg" class="thumb-link" title="Film" data-size="1050x700">
+                        <img src="images/portfolio/film.jpg" 
+                             srcset="images/portfolio/film.jpg 1x, images/portfolio/film@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Film
+                    </h3>
+                    <p class="item-folio__cat">
+                        Branding
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" title="Skaterboy" data-size="1050x700">
+                        <img src="images/portfolio/skaterboy.jpg" 
+                             srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Skaterboy
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+        </div> <!-- end portfolio -->
+
+
+        <div class="testimonials-wrap" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-full testimonials-header">
+                    <h2 class="h1">What Clients Are Saying...</h2>
+                </div>
+            </div>
+
+            <div class="row testimonials">
+
+                <div class="col-full testimonials__slider">
+
+                    <div class="testimonials__slide">
+                        <span class="testimonials__icon"></span>
+                        <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium praesentium corpori.</p>
+                        <div class="testimonials__author">
+                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                            <span class="testimonials__name">Tim Cook</span>
+                            <span class="testimonials__position">CEO, Apple</span>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonials__slide">
+                        <span class="testimonials__icon"></span>
+                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                        <div class="testimonials__author">
+                            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                            <span class="testimonials__name">Sundar Pichai</span>
+                            <span class="testimonials__position">CEO, Google</span>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonials__slide">
+                        <span class="testimonials__icon"></span>
+                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+                        <div class="testimonials__author">
+                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                            <span class="testimonials__name">Satya Nadella</span>
+                            <span class="testimonials__position">CEO, Microsoft</span>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+                    
+                </div> <!-- end testimonials__slider -->
+
+            </div> <!-- end testimonials -->
+
+        </div> <!-- end testimonials-wrap -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="04" class="subhead">Selected Clients</h3>
+                <h1 class="display-1 display-1--light">Here are some of the brands we have had the priviledge to work with.</h1>
+            </div>
+        </div>
+
+        <div class="row clients-list block-1-4 block-tab-1-3 block-mob-1-2" data-aos="fade-up">
+
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-atom.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-dropbox.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-firefox.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-github.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-mozilla.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-linux.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-ubuntu.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-sass.svg" alt="">
+                </a>
+            </div>
+
+        </div> <!-- clients-list -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+
+        <div class="row stats-block block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block item-stats ">
+                <div class="item-stats__count">213</div>
+                <h5>Projects Completed</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">179</div>
+                <h5>Happy Clients</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">35</div>
+                <h5>Awards Received</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">2319</div>
+                <h5>Cups of Coffee</h5> 
+            </div>
+
+        </div> <!-- end stats -->
+
+    </section> <!-- end s-stats -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="05" class="subhead">Get In Touch</h3>
+                <h1 class="display-1 display-1--light">Have an idea or an epic project in mind? Talk to 
+                    us. Let’s work together and make something 
+                    great. Drop us a line at <a href="mailto:hello@arcanium.io">hello@arcanium.io</a></h1>
+            </div>
+        </div>
+
+        <div class="row contact-infos">
+
+            <div class="col-five md-seven tab-full contact-address" data-aos="fade-up">
+                <h4>Where to Find Us</h4>
+
+                <p>
+                385 South Cherokee St<br>
+                Denver, Colorado<br>
+                80223  US
+                </p>
+            </div>
+
+            <div class="col-three md-five tab-full contact-social" data-aos="fade-up">
+                <h4>Follow Us</h4>
+
+                <ul class="contact-list">
+                    <li><a href="#0">Facebook</a></li>
+                    <li><a href="#0">Twitter</a></li>
+                    <li><a href="#0">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="col-four md-six tab-full contact-number" data-aos="fade-up">
+                <h4>Contact Us</h4>
+
+                <ul class="contact-list">
+                    <li><a href="mailto:hello@arcanium.io">hello@arcanium.io</a></li>
+                    <li><a href="tel:720-666-3245">+720 666 3245</a></li>
+                    <li><a href="tel:206-355-1980">+206 355 1980</a></li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+        <div class="row contact-bottom">
+            <div class="col-five tab-full contact-button" data-aos="fade-up">
+                <a href="#about" class="smoothscroll btn btn-animatedbg">
+                    Let's Talk 
+                </a>
+            </div>
+
+            <div class="col-six tab-full contact-subscribe" data-aos="fade-up">
+                <h4>Subscribe</h4>
+
+                <form id="mc-form" class="group mc-form" novalidate="true">
+                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                    <input type="submit" name="subscribe" value="Subscribe">
+                    <label for="mc-email" class="subscribe-message"></label>
+                </form>
+            </div>
+        </div> <!-- end contact-button -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>

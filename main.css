@@ -378,6 +378,7 @@ p.edit{
   opacity: 0.95;
   z-index: -1;
 }
+
 html {
   scroll-behavior: smooth;
 }
