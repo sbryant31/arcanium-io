@@ -1,4 +1,5 @@
 # Test
+python -m SimpleHTTPServer 8000
 # Official Color Pallette
 # background-color : #2e2f30 
 # Tea Rose(red) : #FF8377
