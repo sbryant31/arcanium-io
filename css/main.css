@@ -2827,7 +2827,15 @@ html.no-csstransitions .home-content__main {
   transform: scale(0.5);
 }
 
+
+@media only screen and (max-width:650px) {
+  .item-folio__thumb img {
+  }
+
+}
 .item-folio__thumb img {
+  height: auto;
+  width: 100%;
   vertical-align: bottom;
 }
 
