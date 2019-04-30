@@ -1699,8 +1699,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 130px;
-  height: 37px;
+  width: 170.0px;
+  height: 50.0px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1821,7 +1821,7 @@ input::-moz-focus-inner {
   letter-spacing: .3rem;
   position: absolute;
   top: 0;
-  left: 200px;
+  left: 250px;
 }
 
 .header-nav {
@@ -1840,6 +1840,7 @@ input::-moz-focus-inner {
 .header-nav li a {
   display: block;
   line-height: 72px;
+  font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -2703,6 +2704,9 @@ html.no-csstransitions .home-content__main {
 }
 
 .services-list {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
   margin-top: 4.8rem;
   counter-reset: ctr;
   position: relative;
