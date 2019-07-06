@@ -2728,7 +2728,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .item-service img {
   width: 150px;
-  height: 150px;
+  height: auto;
   border-radius: 75px;
   border: 1px solid white;
 }
