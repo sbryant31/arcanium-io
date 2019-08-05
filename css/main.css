@@ -481,6 +481,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 button,
 .btn {
+  border-radius: 5px;
   margin-bottom: 1.2rem;
 }
 
@@ -1458,6 +1459,24 @@ input::-moz-focus-inner {
 .section-header p.lead {
   padding-left: 9.6rem;
   padding-right: 2rem;
+}
+
+.nav-cta {
+  background-color: #F26522 !important;
+  border-color: #F26522 !important;
+  color: #FFFFFF !important;
+  padding: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.nav-phone {
+  justify-self: flex-end;
+  color: #fff;
+}
+.nav-end {
+  margin-left: 30px;
 }
 
 .section-header .lead-light {
