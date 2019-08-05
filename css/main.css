@@ -1487,13 +1487,27 @@ input::-moz-focus-inner {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.btn-cta {
+  position: relative;
+  text-align: center;
+  background-color: #F26522 !important;
+  border-color: #F26522 !important;
+  color: #FFFFFF !important;
+  height: 6.6rem;
+  font-size: 2.5rem;
+  line-height: 6.2rem;
+  padding: 0 8rem 0 4rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
 .btn-animatedbg {
   position: relative;
   background-color: #F26522 !important;
   border-color: #F26522 !important;
   color: #FFFFFF !important;
   height: 6.6rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 6.2rem;
   padding: 0 8rem 0 4rem;
   overflow: hidden;
