@@ -2525,7 +2525,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
   padding-top: 18rem;
-  padding-bottom: 18rem;
   background-color: #FFFFFF;
   position: relative;
 }
@@ -2573,19 +2572,19 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-process .item-process__header--planning::before {
-  background-image: url(../images/icons/icon-planning.svg);
+  background-image: url(../images/icons/icon-modern_dev.svg);
 }
 
 .about-process .item-process__header--branding::before {
-  background-image: url(../images/icons/icon-branding.svg);
+  background-image: url(../images/icons/icon-digital_transformation.svg);
 }
 
 .about-process .item-process__header--implementation::before {
-  background-image: url(../images/icons/icon-implementation.svg);
+  background-image: url(../images/icons/icon-worldclass.svg);
 }
 
 .about-process .item-process__header--documentation::before {
-  background-image: url(../images/icons/icon-documentation.svg);
+  background-image: url(../images/icons/icon-groundbreaking_tech.svg);
 }
 
 
@@ -2660,6 +2659,17 @@ html.no-csstransitions .home-content__main {
 }
 
 
+.team-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin-left: 9.6rem;
+  margin-bottom: 3rem;
+}
+.team-line span {
+  margin-left: 1rem;
+}
 
 /* ===================================================================
  * # services
@@ -2668,10 +2678,9 @@ html.no-csstransitions .home-content__main {
 .s-services {
   padding-top: 18rem;
   padding-bottom: 18rem;
-  background-color: #151515;
+  background-color: #353535;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/services-bg2.jpg);
   background-size: cover;
   position: relative;
   color: rgba(255, 255, 255, 0.5);
@@ -2738,7 +2747,7 @@ html.no-csstransitions .home-content__main {
 .services-list .item-service img {
   width: 200px;
   height: auto;
-  border-radius: 75px;
+  border-radius: 100px;
   border: 1px solid white;
 }
 
