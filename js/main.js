@@ -57,9 +57,10 @@
 
         var hero = $('.page-hero'),
             hdr = $('header'),
-            triggerHeight = hero.outerHeight() - 170;
+            triggerHeight = 0;
 
 
+      /*
         $WIN.on('scroll', function () {
 
             var loc = $WIN.scrollTop();
@@ -83,6 +84,7 @@
             }
 
         });
+        */
 
         // $WIN.on('resize', function() {
         //     if ($WIN.width() <= 768) {
