@@ -1496,7 +1496,7 @@ input::-moz-focus-inner {
   height: 6.6rem;
   font-size: 2.5rem;
   line-height: 6.2rem;
-  padding: 0 8rem 0 4rem;
+  padding: 0 8rem 0 8rem;
   overflow: hidden;
   z-index: 1;
 }
