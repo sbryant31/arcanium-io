@@ -12,6 +12,10 @@
   gtag('config', 'UA-145098239-1');
 </script>
 
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<!-- Calendly link widget end -->
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
@@ -75,7 +79,7 @@
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                     <li><a class="smoothscroll"  href="#team" title="team">Team</a></li>
                     <li><a class="smoothscroll"  href="#works" title="works">Portfolio</a></li>
-                    <li><a class="" href="https://arcanium.io/estimate.html#estimate" title="contact"><span class="nav-cta">Quick Estimate</span></a></li>
+                    <li><a class=""href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/greg-arcanium/30min'});return false;"><span class="nav-cta">Quick Estimate</span></a></li>
                     <li><a  href="https://arcanium.freshteam.com/jobs" target="new" title="careers">We're Hiring!</a></li>
                     <li class="nav-end"><span class="nav-phone">813-475-0625</a></li>
                 </ul>
@@ -110,7 +114,7 @@
                     </a>
                 </div>
                 <div class="btn btn--small" >
-                    <a href="/estimate#estimate" style="color: #000;">Get a project estimate</a>
+										<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/greg-arcanium/30min'});return false;" style="color: #000;">Get a project estimate</a>
                 </div>
 
                 <!--
@@ -284,7 +288,7 @@
      </section> <!-- end s-services -->
 
       <div style="margin-top: 20px; background-color: #000; display: flex; padding: 15px; align-items: center; align-content: center; justify-content: center; justify-items: center;">
-        <a href="#contact" class="smoothscroll btn btn-cta">
+        <a href="" class="btn btn-cta" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/greg-arcanium/30min'});return false;">
           Call a Wizard
         </a>
       </div>
@@ -471,17 +475,11 @@
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 data-num="05" class="subhead">Contact Us</h3>
-                <div style="background-color: #fff; padding: 25px;">
-                  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                  <script>
-                    hbspt.forms.create({
-                      portalId: "5500551",
-                      formId: "6b594a97-d271-43c9-b5ac-8e5db4b8eb70"
-                    });
-                </script>
-                  </div>
-            <!--    <h1 class="display-1 display-1-light">TODO add second dash to display 1 light We're here to help.  Drop us a line at <a href="mailto:hello@arcanium.io">hello@arcanium.io</a></h1> -->
+                <h3 data-num="05" class="subhead">Talk to a Human</h3>
+								<!-- Calendly inline widget begin -->
+								<div class="calendly-inline-widget" data-url="https://calendly.com/greg-arcanium/30min" style="min-width:320px;height:630px;"></div>
+								<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+								<!-- Calendly inline widget end -->
             </div>
         </div>
 
@@ -592,8 +590,11 @@ Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5500551.js"></script>
-<!-- End of HubSpot Embed Code -->
+
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/greg-arcanium/30min', text: 'Schedule an exploratory call', color: '#f26623', textColor: '#ffffff', branding: false });</script>
+<!-- Calendly badge widget end -->
 
 </body>
