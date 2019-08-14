@@ -2745,7 +2745,15 @@ html.no-csstransitions .home-content__main {
   width: 200px;
   height: auto;
   border-radius: 100px;
-  border: 1px solid white;
+  -moz-box-shadow: 0 0 2px #fff;
+  -webkit-box-shadow: 0 0 2px #fff;
+  box-shadow: 0px 0px 2px #fff;
+}
+
+.services-list .item-service img:hover {
+  -moz-box-shadow: 0 0 4px #fff;
+  -webkit-box-shadow: 0 0 4px #fff;
+  box-shadow: 0px 0px 4px #fff;
 }
 
 .services-list .item-service a {
@@ -3830,7 +3838,7 @@ footer a:visited {
   }
 
   .services-list .item-service {
-    height: 35vh; 
+    height: 32vh; 
   }
 
 }
