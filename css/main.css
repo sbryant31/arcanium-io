@@ -583,6 +583,10 @@ form,
   border-radius: 50%;
 }
 
+.target-section {
+  width: 100%;
+}
+
 #loader > div:nth-of-type(1) {
   left: 15px;
 }
@@ -3874,6 +3878,10 @@ form.hs-form {max-width: 100%;}
   .cl-copyright span::after {
     display: none;
   }
+  .btn-cta {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
   .cl-go-top {
     right: 50%;
@@ -3881,7 +3889,22 @@ form.hs-form {max-width: 100%;}
   }
 
   .services-list .item-service {
-    height: 35vh; 
+    height: 50vh; 
+  }
+
+  .btn-animatedbg {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btn--small {
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .btn-animatedbg::after {
+    display: none;
   }
 }
 
