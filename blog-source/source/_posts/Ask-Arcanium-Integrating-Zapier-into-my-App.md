@@ -1,5 +1,5 @@
 ---
-title: 'Ask Arcanium: Integrating Zapier into my Private App'
+title: 'Ask Arcanium - Integrating Zapier into a Private App'
 date: 2019-09-03 19:42:03
 tags: 
   - Zapier
@@ -7,7 +7,7 @@ tags:
   - Ask Arcanium
 ---
 
-This is part of a series called “ask arcanium.” If you have a question about your software project, feel free to ask us by emailing hello@arcanium.io and we’ll let you know!
+This is part of a series called *Ask Arcanium*. If you have a question about your software project, feel free to ask us by emailing hello@arcanium.io and we’ll let you know!
 
 A client was seeking a [zapier.com](Zapier.com) expert and found us. We mentioned that we’ve done all sorts of Zapier work in the past, including helping SaaS companies connect their APIs to Zapier and building custom integrations.
 
@@ -33,6 +33,7 @@ Zapier also has “Code by Zapier” where you can write custom code to interact
 {% asset_img zapier-actions.png Code By Zapier %}
 
 [zapier.com](Zapier.com) is a fully featured integration platform and we love it because it is inexpensive and simple to work with.
+
 
 
 
