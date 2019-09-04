@@ -2,26 +2,15 @@
   height: banner-height
   position: relative
   border-bottom: 1px solid color-border
-  &:before, &:after
-    content: ""
-    position: absolute
-    left: 0
-    right: 0
-    height: 40px
-  &:before
-    top: 0
-    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
-  &:after
-    bottom: 0
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
+  background: #000
 
 #header-outer
   height: 100%
   position: relative
 
 #header-inner
-  position: relative
-  overflow: hidden
+  height: 100%
+  display: flex
 
 #banner
   position: absolute
@@ -29,9 +18,7 @@
   left: 0
   width: 100%
   height: 100%
-  background: url(banner-url) center #000
-  background-repeat: no-repeat;
-  background-size: 40%;
+  background: #000;
   z-index: -1
 
 #header-title
@@ -66,14 +53,20 @@ $logo-text
 #main-nav
   float: left
   margin-left: -15px
+  display: flex
+  align-items: center
+  align-content: center
+  justify-items: center
+  justify-content: center
 
 $nav-link
   float: left
   color: #fff
   opacity: 0.6
   text-decoration: none
-  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+  text-transform: uppercase
   transition: opacity 0.2s
+  letter-spacing: 3px
   display: block
   padding: 20px 15px
   &:hover
@@ -92,10 +85,16 @@ $nav-link
 
 .main-nav-link
   @extend $nav-link
-  font-weight: 300
-  letter-spacing: 1px
+  font-size: 11px
+  letter-spacing: 3px
   @media mq-mobile
     display: none
+
+.logo
+  margin-right: 100px
+  align-self: center
+  height: 50px
+  width: 170px
 
 #main-nav-toggle
   display: none
@@ -105,7 +104,9 @@ $nav-link
     display: block
 
 #sub-nav
-  float: right
+  justify-self: flex-end
+  align-self: center
+  margin-left: auto
   margin-right: -15px
 
 #nav-rss-link

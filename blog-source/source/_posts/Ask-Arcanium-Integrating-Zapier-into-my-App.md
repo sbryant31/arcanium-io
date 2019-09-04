@@ -1,12 +1,16 @@
 ---
 title: 'Ask Arcanium: Integrating Zapier into my Private App'
 date: 2019-09-03 19:42:03
-tags: Zapier, API integration, Ask Arcanium
+tags: 
+  - Zapier
+  - API integration
+  - Ask Arcanium
 ---
 
 This is part of a series called “ask arcanium.” If you have a question about your software project, feel free to ask us by emailing hello@arcanium.io and we’ll let you know!
 
 A client was seeking a [zapier.com](Zapier.com) expert and found us. We mentioned that we’ve done all sorts of Zapier work in the past, including helping SaaS companies connect their APIs to Zapier and building custom integrations.
+
 
 # The Question
 
