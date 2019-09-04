@@ -1,5 +1,6 @@
 #!/bin/bash
 ./build-resller-packet.sh
 ./update-blog.sh
-git commit -am "new build"
+git add .
+git commit -m "new build"
 git push origin master
