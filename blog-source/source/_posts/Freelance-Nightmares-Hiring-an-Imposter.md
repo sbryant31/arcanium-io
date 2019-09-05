@@ -1,5 +1,5 @@
 ---
-title: 'Freelancer Nightmares: Hiring an Imposter!'
+title: 'Freelancer Nightmares: Hiring the Imposter!'
 date: 2019-09-04 16:56:24
 tags:
   - Freelancer Nightmares
@@ -26,9 +26,10 @@ I scheduled a phone call screening to learn more about John. On the call, I was 
 
 We got through the rest of the phone screen, and I was not particularly impressed by John’s communication skills. He did appear to have all the technical chops required for the job, but I have learned from experience that communication is key to software projects.
 
-Wrapping up the call, I curiously inquired whether John was near Lake Placid? Albany? Canada? Needless to say, NY geography wasn’t his area of expertise. I found that quite odd, seeing as how he lived there. Not being able to make further small talk, I ended the phone call.
+Wrapping up the call, I curiously inquired whether John had ever visited... Lake Placid? Albany? Niagara Falls? He had no idea where these locations were and had certainly never made the trip. Not being able to make further small talk, I ended the phone call.
 
 I was duped. I had gone into the call really excited to make a great deal on a developer who lived outside a major metro area. What I found was an imposter. When the developer followed up, I let him know gently that I was only looking for USA based developers.
+
 
 # USA Only Freelancers on Upwork
 
