@@ -257,9 +257,9 @@
         $('.testimonials__slider').slick({
             arrows: false,
             dots: true,
-            infinite: true,
-            slidesToShow: 2,
-            slidesToScroll: 1,
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 2,
             pauseOnFocus: false,
             autoplaySpeed: 500,
             responsive: [
