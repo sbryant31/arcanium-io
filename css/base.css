@@ -575,7 +575,7 @@ textarea {
 /* ------------------------------------------------------------------- 
  * ## tablets
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000) {
   .row {
     width: 90%;
   }
@@ -788,7 +788,7 @@ textarea {
 /* ------------------------------------------------------------------- 
  * ## tablets
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000px) {
   .block-tab-1-6 .col-block {
     width: 16.66667%;
   }
